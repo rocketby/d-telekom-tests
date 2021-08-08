@@ -29,7 +29,8 @@ public class BaseTest {
         Configuration.startMaximized = true;
 
         //in command line such command is used: gradle clean test -Durl=selenoid.autotests.cloud/wd/hub/
-        Configuration.remote = format("https://%s:%s@" + System.getProperty("url"), login, password);
+      //  Configuration.remote = format("https://%s:%s@" + System.getProperty("url"), login, password);
+        Configuration.remote = format("https://%s:%s@selenoid.autotests.cloud/wd/hub/", login, password);
     }
 
     @AfterEach
