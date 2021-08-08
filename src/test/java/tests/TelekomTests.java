@@ -3,7 +3,7 @@ package tests;
 import org.junit.jupiter.api.Test;
 import pages.TelekomPage;
 
-public class TelekomTests {
+public class TelekomTests extends BaseTest {
     String URL = "https://deutschetelekomitsolutions.ru/";
 
     TelekomPage telekomPage = new TelekomPage();
