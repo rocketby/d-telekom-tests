@@ -12,7 +12,7 @@ Detailed report with steps:
 
 Notification about tests execution results in special Telegram chat by created Bot:
 
-![image](https://user-images.githubusercontent.com/86851419/129453429-61eb5380-5041-47aa-955b-59114e811933.png)
+![image](https://user-images.githubusercontent.com/86851419/129453453-a6131f9c-ad5c-4fe4-949e-5b443ea83b06.png)
 
 # USAGE examples
 
