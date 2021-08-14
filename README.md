@@ -16,11 +16,12 @@ The following technologies are used:
 * :white_check_mark: **GitHub** - place for storing repository with code!
 * :white_check_mark: **Telegram** - messenger, in which notifications about test execution results are sent!  
 
+
 Java | Intellij Idea | Selenide | Selenoid | Gradle |
---- | --- | --- | --- | --- 
-![image](https://user-images.githubusercontent.com/86851419/129460277-c5a848bf-9309-4743-bc8d-f64453bf439d.png) | ![image](https://user-images.githubusercontent.com/86851419/129460290-f0bb0b77-ced9-41d0-96e3-3b51e6e9c1c4.png) | ![image](https://user-images.githubusercontent.com/86851419/129460419-c463163c-0c76-46d6-9416-0ee4ec26b879.png) |![image](https://user-images.githubusercontent.com/86851419/129460507-e47ea71f-e8e0-4dfa-a5be-fa88bbd79522.png) | ![image](https://user-images.githubusercontent.com/86851419/129460392-4cf38fe7-9133-4a61-8423-1ae26e629d3e.png)
-JUnit5 | Jenkins | Allure |GitHub | Telegram
-![image](https://user-images.githubusercontent.com/86851419/129460565-68f2b13e-0f71-4510-9266-21c1bf95d55b.png)| ![image](https://user-images.githubusercontent.com/86851419/129460671-00864a0c-a1e9-415b-9df3-25062b4ee5ca.png) | ![image](https://user-images.githubusercontent.com/86851419/129460019-82755ea3-50b7-4d91-a5d0-f98430544079.png) | ![image](https://user-images.githubusercontent.com/86851419/129460698-8cbd73c0-b8a1-4c6a-a5e0-f8452e1bcb24.png) |![image](https://user-images.githubusercontent.com/86851419/129460847-d77a8a9d-0022-440f-b0f4-96dde9d22e58.png)
+:---------: | :---------: | :---------: | :---------: | :---------: 
+![image](https://user-images.githubusercontent.com/86851419/129460968-afa39d7b-2b6c-4cfe-a4d7-a832b2241964.png) | ![image](https://user-images.githubusercontent.com/86851419/129460290-f0bb0b77-ced9-41d0-96e3-3b51e6e9c1c4.png) | ![image](https://user-images.githubusercontent.com/86851419/129460419-c463163c-0c76-46d6-9416-0ee4ec26b879.png) |![image](https://user-images.githubusercontent.com/86851419/129460507-e47ea71f-e8e0-4dfa-a5be-fa88bbd79522.png) | ![image](https://user-images.githubusercontent.com/86851419/129461122-84b505ee-c082-44da-a100-226d47f6a665.png)
+**JUnit5** | **Jenkins** | **Allure** |**GitHub** | **Telegram**
+![image](https://user-images.githubusercontent.com/86851419/129460565-68f2b13e-0f71-4510-9266-21c1bf95d55b.png)| ![image](https://user-images.githubusercontent.com/86851419/129460671-00864a0c-a1e9-415b-9df3-25062b4ee5ca.png) | ![image](https://user-images.githubusercontent.com/86851419/129460019-82755ea3-50b7-4d91-a5d0-f98430544079.png) |![image](https://user-images.githubusercontent.com/86851419/129461200-cc199a3e-8a0b-4879-883b-ca0c7b8e7d9c.png) |![image](https://user-images.githubusercontent.com/86851419/129460847-d77a8a9d-0022-440f-b0f4-96dde9d22e58.png)
 
 ### USAGE examples
 
