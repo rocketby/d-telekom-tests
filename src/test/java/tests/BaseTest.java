@@ -29,8 +29,11 @@ public class BaseTest {
         Configuration.browserCapabilities = capabilities;
         Configuration.startMaximized = true;
 
+
         //in command line such command is used: gradle clean test -Durl=selenoid.autotests.cloud/wd/hub/
-        Configuration.remote = format("https://%s:%s@" + System.getProperty("url"), login, password);
+        if  (System.getProperty("runMode")=="remote") {
+            Configuration.remote = format("https://%s:%s@" + System.getProperty("url"), login, password);
+        }
     }
 
     @AfterEach
