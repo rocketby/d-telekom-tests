@@ -17,7 +17,7 @@ The following technologies are used here:
 
 ### For run remote tests need pass value:
 * URL(default: selenoid.autotests.cloud/wd/hub/)
-* ALLURE_NOTIFICATIONS_VERSION (3.1.1)
+* ALLURE_NOTIFICATIONS_VERSION (default: 3.1.1)
 * ENVIRONMENT (default: TEST)
 * RUN_MODE (default: remote)
 * BROWSER (default: chrome)
@@ -42,23 +42,23 @@ gradle clean test -Durl=selenoid.autotests.cloud/wd/hub/ -DrunMode=remote
 allure serve build/allure-results
 ```
 
-### Running build in Jenkins with parameters:
+### :gear: Running build in Jenkins with parameters:
 ![image](https://user-images.githubusercontent.com/86851419/129457545-054f3674-185d-4884-b4d2-a68d9b079d6c.png)
 
-### Generated Allure Report with tests execution results:
-
+### :chart_with_upwards_trend: Generated Allure Report with tests execution results:
 ![image](https://user-images.githubusercontent.com/86851419/129453312-bf3cf433-bf47-41bf-9911-ad306e6b347d.png)
 
-### Detailed Allure report with test steps:
+### :bookmark_tabs: Detailed Allure report with test steps:
 ![image](https://user-images.githubusercontent.com/86851419/129457919-a9f4952f-b815-4d66-82ae-ee0937508b24.png)
 
-### Test runs in Allure TestOps:
+### :bar_chart: Test runs in Allure TestOps:
 ![image](https://user-images.githubusercontent.com/86851419/129457654-e203b8f6-5c5c-4c59-93da-7bf72dc8a1ea.png)
 
-### Test Cases in Allure TestOps:
+### :clipboard: Test Cases in Allure TestOps:
 ![image](https://user-images.githubusercontent.com/86851419/129457999-02f33150-962b-4ed4-b254-14bf44b28947.png)
 
-### Notification about tests execution results in Telegram:
-
+### :envelope_with_arrow: Notification about tests execution results in Telegram:
 ![image](https://user-images.githubusercontent.com/86851419/129457623-53affc03-3188-4ff8-ac63-8f7494feec1e.png)
 
+### :film_projector: Recorded tests execution:
+![alt text](https://github.com/rocketby/d-telekom-tests/blob/master/src/test/resources/video/test_execution_14082021.gif "Tests execution recorded")
