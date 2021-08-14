@@ -1,6 +1,16 @@
 Hi there!
 
-This project contains smoke automates tests of Web Site: 
+This project contains smoke automates tests of Web Site: https://deutschetelekomitsolutions.ru/
+
+In this project the following technologies/tools/programming languages are used:
+
+* Java - OOP language for automated tests development
+* Selenide - framework for test automation powered by Selenium WebDriver
+* Gradle - build automation tool for managing dependencies modules, setting tasks configuration, etc.
+* Jenkins - Automation server, which is used to execute the tests with different parameters from GutHub repository on Selenoid
+* Allure TestOps - Test management system
+* GitHub - place for storing repository with code! :smiley:
+
 
 Allure Report:
 
@@ -19,7 +29,7 @@ Notification about tests execution results in special Telegram chat by created B
 ### For run remote tests need fill remote.properties or to pass value:
 
 * browser (default chrome)
-* browserVersion (default 89.0)
+* browserVersion (default 91.0)
 * browserSize (default 1920x1080)
 * browserMobileView (mobile device name, for example iPhone X)
 * remoteDriverUrl (url address from selenoid or grid)
