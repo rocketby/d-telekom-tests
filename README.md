@@ -1,15 +1,15 @@
-Hi there!
+Hi there! :wave:
 
-This project contains smoke automates tests of Web Site: https://deutschetelekomitsolutions.ru/
+This project contains automation tests of Web Site: **https://deutschetelekomitsolutions.ru/**
 
-In this project the following technologies/tools/programming languages are used:
+In this project the following technologies are used:
 
-* Java - OOP language for automated tests development
-* Selenide - framework for test automation powered by Selenium WebDriver
-* Gradle - build automation tool for managing dependencies modules, setting tasks configuration, etc.
-* Jenkins - Automation server, which is used to execute the tests with different parameters from GutHub repository on Selenoid
-* Allure TestOps - Test management system
-* GitHub - place for storing repository with code! :smiley:
+* **Java**  - OOP language, that was used for the automation tests development
+* **Selenide** - framework for test automation powered by Selenium WebDriver
+* **Gradle** - build automation tool for managing dependencies modules, setting tasks configuration, etc.
+* **Jenkins** - automation server, used to execute the tests with different parameters from GutHub repository on Selenoid
+* **Allure TestOps** - test management system for keeping test cases and reporting about test results
+* **GitHub** - place for storing repository with code!
 
 
 Allure Report:
