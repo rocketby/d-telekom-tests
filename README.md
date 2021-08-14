@@ -15,12 +15,16 @@ The following technologies are used here:
 
 ### USAGE examples
 
-### For run remote tests need fill remote.properties or to pass value:
-* browser (default chrome)
-* browserVersion (default 91.0)
-* browserSize (default 1920x1080)
-* browserMobileView (mobile device name, for example iPhone X)
-* threads (number of threads)
+### For run remote tests need pass value:
+* URL(default: selenoid.autotests.cloud/wd/hub/)
+* ALLURE_NOTIFICATIONS_VERSION (3.1.1)
+* ENVIRONMENT (default: TEST)
+* runMode (default: remote)
+* BROWSER (default: chrome)
+* BROWSER_VERSION (default: 91.0)
+* BROWSER_SIZE (default: 1920x1080)
+* BROWSER_MOBILE (mobile device name, for example iPhone X, default: )
+* THREADS (number of threads, default: 5)
 
 
 ### Run tests using local browser:
@@ -30,7 +34,7 @@ gradle clean test
 
 ### Run tests using Selenoid:
 ```bash
-gradle clean test -Durl=selenoid.autotests.cloud/wd/hub/ -DrunMode = remote
+gradle clean test -Durl=selenoid.autotests.cloud/wd/hub/ -DrunMode=remote
 ```
 
 ### Serve report:
@@ -38,6 +42,8 @@ gradle clean test -Durl=selenoid.autotests.cloud/wd/hub/ -DrunMode = remote
 allure serve build/allure-results
 ```
 
+### Running build in Jenkins with parameters:
+![image](https://user-images.githubusercontent.com/86851419/129456904-f358bfd1-a73f-4136-8935-a7cdb1600e12.png)
 
 ### Generated Allure Report with tests execution results:
 
