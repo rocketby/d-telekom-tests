@@ -29,7 +29,7 @@ public class BaseTest {
         Configuration.startMaximized = true;
 
         //if need to execute tests in selenoid, then use command:
-        //gradle clean test -Durl=selenoid.autotests.cloud/wd/hub/ -DrunMode = remote
+        //gradle clean test -Durl=selenoid.autotests.cloud/wd/hub/ -DrunMode=remote
 
         //if need to execute tests locally, use command:
         //gradle clean test

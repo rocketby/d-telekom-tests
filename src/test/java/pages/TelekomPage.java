@@ -53,15 +53,18 @@ public class TelekomPage {
         $(withText(VACANCY_PAGE_DESCRIPTION)).shouldBe(visible);
     }
 
+    @Step("Choose specialization")
     public void chooseSpecialization(String idOfSpecialization) {
         $(".vacancies__btn.vacancies__btn--specialization").click();
         $x(format("//*[@class='vacancies__wrap-top']//input[@value='%s']", idOfSpecialization)).click();
     }
 
+    @Step("Filter vacancies by chosen options")
     public void filterVacanciesByOptions() {
         $(byName("set_filter")).click();
     }
 
+    @Step("Check, that found vacancies match set search options")
     public void checkSearchVacanciesResults(String specialization) {
         $(".vacancies__result").shouldHave(text(specialization));
     }
