@@ -1,34 +1,59 @@
-# USAGE examples
+### Hi there! :rocket:
 
-### For run remote tests need fill remote.properties or to pass value:
+### This project contains automation tests of Web Site: https://deutschetelekomitsolutions.ru/
 
-* browser (default chrome)
-* browserVersion (default 89.0)
-* browserSize (default 1920x1080)
-* browserMobileView (mobile device name, for example iPhone X)
-* remoteDriverUrl (url address from selenoid or grid)
-* videoStorage (url address where you should get video)
-* threads (number of threads)
+The following technologies are used here:
+
+* :white_check_mark: **Java**  - OOP language, that was used for the automation tests development
+* :white_check_mark: **Selenide** - framework for test automation powered by Selenium WebDriver
+* :white_check_mark: **Gradle** - build automation tool for managing dependencies modules, setting tasks configuration, etc.
+* :white_check_mark: **Jenkins** - automation server, used to execution of tests from GutHub repository on Selenoid
+* :white_check_mark: **Allure Reports** - reporting tool for analysis of test execution results
+* :white_check_mark: **Allure TestOps** - test management system for keeping test cases and graphs/metrics investigation
+* :white_check_mark: **GitHub** - place for storing repository with code!
+* :white_check_mark: **Telegram** - messenger, in which notifications about test execution results are sent!  
+
+### USAGE examples
+
+### For run remote tests need pass value:
+* URL(default: selenoid.autotests.cloud/wd/hub/)
+* ALLURE_NOTIFICATIONS_VERSION (3.1.1)
+* ENVIRONMENT (default: TEST)
+* RUN_MODE (default: remote)
+* BROWSER (default: chrome)
+* BROWSER_VERSION (default: 91.0)
+* BROWSER_SIZE (default: 1920x1080)
+* BROWSER_MOBILE (mobile device name, for example iPhone X, default: not chosen)
+* THREADS (number of threads, default: 5)
 
 
-Run tests with filled remote.properties:
+### Run tests using local browser:
 ```bash
 gradle clean test
 ```
 
-Run tests with not filled remote.properties:
+### Run tests using Selenoid:
 ```bash
-gradle clean -DremoteDriverUrl=https://xx:xx@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
+gradle clean test -Durl=selenoid.autotests.cloud/wd/hub/ -DrunMode=remote
 ```
 
-Serve report:
+### Serve report:
 ```bash
 allure serve build/allure-results
 ```
 
+### Running build in Jenkins with parameters:
+![image](https://user-images.githubusercontent.com/86851419/129457545-054f3674-185d-4884-b4d2-a68d9b079d6c.png)
 
-For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
-* remove @Disabled("...") annotation to run tests
-```bash
-gradle clean demowebshop
-```
+### Generated Allure Report with tests execution results:
+
+![image](https://user-images.githubusercontent.com/86851419/129453312-bf3cf433-bf47-41bf-9911-ad306e6b347d.png)
+
+### Detailed Allure report with test steps:
+
+![image](https://user-images.githubusercontent.com/86851419/129453346-568cfcb4-877f-48df-b436-fd37322fc543.png)
+
+### Notification with tests execution results in Telegram:
+
+![image](https://user-images.githubusercontent.com/86851419/129453453-a6131f9c-ad5c-4fe4-949e-5b443ea83b06.png)
+
