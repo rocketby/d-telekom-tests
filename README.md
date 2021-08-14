@@ -9,11 +9,11 @@ The following technologies are used:
 * :white_check_mark: **Selenide** - framework for test automation powered by Selenium WebDriver
 * :white_check_mark: **Selenoid** - cross browser Selenium solution
 * :white_check_mark: **Gradle** - build automation tool for managing dependencies modules, setting tasks configuration, etc.
-* :white_check_mark: **JUnit5**  - serves as a foundation for launching testing frameworks on the JVM
+* :white_check_mark: **JUnit5** - serves as a foundation for launching testing frameworks on the JVM
 * :white_check_mark: **Jenkins** - automation server, used to execution of tests from GutHub repository on Selenoid
 * :white_check_mark: **Allure Reports** - reporting tool for analysis of test execution results
 * :white_check_mark: **Allure TestOps** - test management system for keeping test cases and graphs/metrics investigation
-* :white_check_mark: **GitHub** - place for storing repository with code!
+* :white_check_mark: **GitHub** - code hosting platform for version control and collaboration
 * :white_check_mark: **Telegram** - messenger, in which notifications about test execution results are sent!  
 
 
@@ -65,7 +65,7 @@ allure serve build/allure-results
 ![image](https://user-images.githubusercontent.com/86851419/129457654-e203b8f6-5c5c-4c59-93da-7bf72dc8a1ea.png)
 
 ### :clipboard: Test Cases in Allure TestOps:
-![image](https://user-images.githubusercontent.com/86851419/129457999-02f33150-962b-4ed4-b254-14bf44b28947.png)
+![image](https://user-images.githubusercontent.com/86851419/129461274-797534e9-3491-468f-b481-66eeba6557e4.png)
 
 ### :envelope_with_arrow: Notification about tests execution results in Telegram:
 ![image](https://user-images.githubusercontent.com/86851419/129457623-53affc03-3188-4ff8-ac63-8f7494feec1e.png)
