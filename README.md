@@ -4,7 +4,11 @@ This project contains smoke automates tests of Web Site:
 
 Allure Report:
 
-![image](https://user-images.githubusercontent.com/86851419/129453275-122e14e9-0bfe-4d72-b55f-1b117d6aba55.png)
+![image](https://user-images.githubusercontent.com/86851419/129453312-bf3cf433-bf47-41bf-9911-ad306e6b347d.png)
+
+Detailed report with steps:
+
+![image](https://user-images.githubusercontent.com/86851419/129453346-568cfcb4-877f-48df-b436-fd37322fc543.png)
 
 
 # USAGE examples
