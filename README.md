@@ -10,6 +10,9 @@ Detailed report with steps:
 
 ![image](https://user-images.githubusercontent.com/86851419/129453346-568cfcb4-877f-48df-b436-fd37322fc543.png)
 
+Notification about tests execution results in special Telegram chat by created Bot:
+
+![image](https://user-images.githubusercontent.com/86851419/129453429-61eb5380-5041-47aa-955b-59114e811933.png)
 
 # USAGE examples
 
