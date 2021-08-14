@@ -1,3 +1,12 @@
+Hi there!
+
+This project contains smoke automates tests of Web Site: 
+
+Allure Report:
+
+![image](https://user-images.githubusercontent.com/86851419/129453275-122e14e9-0bfe-4d72-b55f-1b117d6aba55.png)
+
+
 # USAGE examples
 
 ### For run remote tests need fill remote.properties or to pass value:
