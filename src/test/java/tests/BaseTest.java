@@ -18,7 +18,7 @@ public class BaseTest {
     static void setup() {
         String login = credentials.login();
         String password = credentials.password();
-
+        String runMode = credentials.runMode();
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
@@ -29,9 +29,13 @@ public class BaseTest {
         Configuration.browserCapabilities = capabilities;
         Configuration.startMaximized = true;
 
+        //if need to execute tests in selenoid, then use command:
+        //gradle clean test -Durl=selenoid.autotests.cloud/wd/hub/ -DrunMode = remote
 
-        //in command line such command is used: gradle clean test -Durl=selenoid.autotests.cloud/wd/hub/
-        if  (System.getProperty("runMode")=="remote") {
+        //if need to execute tests locally, use command:
+        //gradle clean test
+
+        if  (System.getProperty("runMode", runMode).equals("remote")) {
             Configuration.remote = format("https://%s:%s@" + System.getProperty("url"), login, password);
         }
     }
