@@ -18,7 +18,6 @@ public class BaseTest {
     static void setup() {
         String login = credentials.login();
         String password = credentials.password();
-        String runMode = credentials.runMode();
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
@@ -35,7 +34,7 @@ public class BaseTest {
         //if need to execute tests locally, use command:
         //gradle clean test
 
-        if  (System.getProperty("runMode", runMode).equals("remote")) {
+        if  (System.getProperty("runMode", "local").equals("remote")) {
             Configuration.remote = format("https://%s:%s@" + System.getProperty("url"), login, password);
         }
     }
