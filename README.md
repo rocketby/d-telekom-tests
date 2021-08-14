@@ -19,11 +19,11 @@ The following technologies are used here:
 * URL(default: selenoid.autotests.cloud/wd/hub/)
 * ALLURE_NOTIFICATIONS_VERSION (3.1.1)
 * ENVIRONMENT (default: TEST)
-* runMode (default: remote)
+* RUN_MODE (default: remote)
 * BROWSER (default: chrome)
 * BROWSER_VERSION (default: 91.0)
 * BROWSER_SIZE (default: 1920x1080)
-* BROWSER_MOBILE (mobile device name, for example iPhone X, default: )
+* BROWSER_MOBILE (mobile device name, for example iPhone X, default: not chosen)
 * THREADS (number of threads, default: 5)
 
 
@@ -43,7 +43,7 @@ allure serve build/allure-results
 ```
 
 ### Running build in Jenkins with parameters:
-![image](https://user-images.githubusercontent.com/86851419/129456904-f358bfd1-a73f-4136-8935-a7cdb1600e12.png)
+![image](https://user-images.githubusercontent.com/86851419/129457545-054f3674-185d-4884-b4d2-a68d9b079d6c.png)
 
 ### Generated Allure Report with tests execution results:
 
